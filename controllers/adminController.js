@@ -315,7 +315,6 @@ module.exports = {
       const alertMessage = req.flash('alertMessage');
       const alertStatus = req.flash('alertStatus');
       const alert = { message: alertMessage, status: alertStatus };
-      console.log(category);
       res.render('admin/item/view_item', {
         title: "Staycation | Edit Item",
         alert,
