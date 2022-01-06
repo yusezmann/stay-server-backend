@@ -15,7 +15,7 @@ const mongoose = require('mongoose');
 //   useFindAndModify: false,
 // });
 
-mongoose.connect('mongodb+srv://admin:member1234@cluster0.6r021.mongodb.net/db-staylive?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://yusezmann:member1234@cluster0.i83f6.mongodb.net/db-staytravel?retryWrites=true&w=majority');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
